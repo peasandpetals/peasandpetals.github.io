@@ -1,0 +1,294 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Alegreya', serif;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.overallcontainer{
+	overflow: hidden;
+}
+
+.image_{
+	display:block;
+}
+
+.image_ img{
+	width:100%;
+}
+
+.nav-bar {
+	display:block;
+	position:absolute;
+	top:20px;
+	right:0;
+	
+}
+
+.nav-bar li{
+	display: inline-block;
+	margin-right:  25px;
+	padding: 9px 10px;
+}
+
+.nav-bar a{
+	  font-family: 'Lato', sans-serif ;
+	  font-weight: 300;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  list-style-type: none;
+	  color:white;
+	  letter-spacing: 3px;
+	  font-size: 12px;
+
+
+}
+
+.nav-bar a:hover{
+	color:#CCCCCC;
+}
+.header-title{
+	font-family: 'Lato', sans-serif ;
+	font-weight: 200;
+	letter-spacing: 3px;
+	font-size: 60px;
+	margin: auto;
+	text-align: center;
+	padding:30px 0px 0px 0px;
+	border-bottom: double grey;
+	width:400px;	
+}
+.fashion-body {
+	text-align: center;
+	margin:auto;
+	overflow: hidden;
+}
+
+.row-one-left{
+	display: inline-block;
+	width:40%;	
+	
+	border-bottom: 1px solid grey;
+	padding: 30px ;
+	margin-right: 
+}
+
+.row-one-left img{
+	width:100%;
+	border:black solid 1px;
+}
+
+.christmas_special{
+	display: inline-block;
+	width:90%;	
+	border-bottom: 1px solid grey;
+	margin:auto;
+	padding-bottom: 100px;
+}
+.christmas_special img{
+	display:inline-block;
+	width:40%;
+}
+.row-one-right{
+	display: inline-block;
+	width:40%;	
+	border-bottom: 1px solid grey;
+	padding: 30px;
+	margin-left:
+}
+
+.row-one-right img{
+	width:100%;
+	border:black solid 1px;
+}
+
+.social-bar {
+	text-align: center;
+	padding-top:30px;
+}
+
+.social-bar li{
+	display: inline-block;
+	width:15%;
+}
+
+.social-bar img{
+	width:20%;
+}
+.description{
+	padding:20px 0px;
+	height:150px;
+	overflow: hidden;
+
+}
+
+.description{
+	padding:20px 0px;
+	height:150px;
+	overflow: hidden;
+
+}
+
+.date{
+	font-size: 10px;
+	font-family: 'Lato', sans-serif ;
+	text-transform: uppercase;
+}
+
+.title{
+font-family: 'Oswald', sans-serif;
+font-weight: 300;
+letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.caption{
+ font-family: 'Lato', sans-serif;
+font-weight: 300;
+ font-size: 13px;
+ letter-spacing: 0px;
+ color: black;
+}
+
+.illustration_description{
+	padding:0px 0px;
+	height:100%;
+	overflow: hidden;
+}
+
+.illustration_description .title{
+ border:none;
+ padding:0px;
+}
+
+.illustration_description .date{
+padding: 5px 0px;
+}
+
+.image_b img{
+	width:100%;
+}
+
+
+.mailing-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 10px 0px;
+}
+
+.input-box{
+	border-color: black;
+	height:30px;
+	width:300px;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	margin: auto;
+	font-weight: 300;
+}
+
+.submit-button{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	height:34px;
+	width:304px;
+	font-size: 15px;
+	text-align: center;
+	background: black;
+	border:2px black solid;
+	border-top: 0px;
+	color: white;
+	margin-right:4px;
+}
+
+.submit-button:hover{
+	background: grey;
+}
+
+.copyright{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.copyright p{
+	text-transform: uppercase;
+	text-align: center;
+    font-family: 'Lato', sans-serif;
+	font-size: 10px;
+}
+
+.copyright a{
+	text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	color:#F94990;
+}
+
+.copyright a:hover{
+	color:black;
+}
+
+@media (max-width:600px){
+	.nav-bar a{
+		font-size: 9px;
+		float:left;
+	}
+
+	.title{
+		font-size: 14px;
+	}
+	.caption{
+		font-size: 12px;
+	}
+	.description{
+		padding:10px 0px;
+		overflow:hidden;
+		height:100%;
+
+	}
+	.date{
+	font-size: 8px;
+	}
+	.input-box{
+	height:20px;
+	width:200px;
+	font-size: 12px;
+	}
+	.submit-button{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	height:24px;
+	width:204px;
+	border:2px black solid;
+	}
+	.mailing-text{
+		font-size: 14px;
+		padding:5px;
+	}
+	.header-title{
+	font-size: 40px;
+	}
+}
+
+@media (max-width:890px){
+	.nav-bar li a:hover{
+		background: black;
+	}
+	.nav-bar {
+		width:150px;
+		background: black;
+		opacity: 0.5;
+
+	}
+	.nav-bar li{
+		float:left;
+		padding-bottom: 5px;		
+	}
+	
+}
