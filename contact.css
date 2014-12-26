@@ -82,7 +82,7 @@
 	padding-bottom: 30px;
 }
 
-.form-fields{
+/*.form-fields{
 	color:black;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -112,14 +112,12 @@
 	font-size: 20px;
 	font-family: 'Lato', sans-serif ;
 	
-}
+}*/
 
 
 .social-bar {
 	width:99%;
 	text-align: center;
-	margin-top:20px;
-	padding-top:30px;
 }
 
 .social-bar li{
@@ -128,7 +126,7 @@
 }
 
 .social-bar img{
-	width:25%;
+	width:30%;
 }
 
 
@@ -173,8 +171,6 @@
 
 	.social-bar {
 	text-align: center;
-	margin-top:20px;
-	padding-top:20px;
 	
 	}
 
@@ -204,16 +200,16 @@
 		padding:10px 0px;
 	}
 
-	.form-fields{
+	/*.form-fields{
 	font-size: 12px;
-	}
+	}*/
 
 	.black-color{
 		font-size: 14px;
 		padding:0px;
 	}
 
-	.long-field{
+	/*.long-field{
 	margin-top: 20px;
 	width:300px;
 	height:120px;
@@ -225,7 +221,7 @@
 	font-size: 15px;
 	width:120px;
 	height:30px;
-	}
+	}*/
 
 
 	
