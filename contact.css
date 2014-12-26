@@ -79,9 +79,17 @@
 	text-transform: uppercase;
 	font-size: 30px;
 	text-align: center;
-	padding-bottom: 30px;
+	padding: 20px 0px;
 }
-
+.black-color-bold{
+	color:black;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 33px;
+	text-align: center;
+	padding-bottom: 30px;
+	border-bottom: 1px dotted;
+}
 /*.form-fields{
 	color:black;
 	font-weight: 300;
