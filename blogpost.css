@@ -70,9 +70,30 @@
 	font-size: 18px;
 	letter-spacing: 1px;
 	overflow: hidden;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	text-align: center;
 
+}
+
+.line_quote{
+	font-family: 'Lato', sans-serif ;
+	font-weight: 400;
+	font-size: 25px;
+	letter-spacing: 1px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+.speech{
+	font-family: 'Lato', sans-serif ;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 18px;
+	letter-spacing: 1px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	text-align: center;
 }
 .first_line{
 	font-family: 'Lato', sans-serif ;
@@ -80,7 +101,7 @@
 	letter-spacing: 1px;
 	font-size: 18px;
 	overflow: hidden;
-	margin-bottom: 3px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 .first_line::first-letter{
@@ -92,11 +113,12 @@
 .caption{
 	font-family: 'Lato', sans-serif ;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 12px;
 	letter-spacing: 1px;
 	overflow: hidden;
 	margin-bottom: 10px;
 	text-align: center;
+
 
 }
 .blog_image{
@@ -216,7 +238,16 @@
 		font-size: 12px;
 	}
 
-	
+
+	.line_quote{
+		font-size: 14px;
+		
+
+	}
+	.speech{
+		font-size: 12px;
+
+	}
 
 	.comment{
 	display:inline-block;
