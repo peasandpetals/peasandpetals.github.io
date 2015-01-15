@@ -254,6 +254,17 @@ border-bottom: 1px dashed black;
 	.header-title{
 	font-size: 40px;
 	}
+	
+	body#home a#homenav,
+	body#fashion a#fashnav,
+	body#blogmain a#blognav,
+	body#about a#aboutnav,
+	body#contact a#contactnav,
+	body#photography a#photonav{
+		
+		padding:0px 5px;
+
+	}
 }
 
 @media (max-width:890px){
@@ -273,6 +284,17 @@ border-bottom: 1px dashed black;
 	.nav-bar li{
 		float:left;
 		padding-bottom: 5px;		
+	}
+
+	body#home a#homenav,
+	body#fashion a#fashnav,
+	body#blogmain a#blognav,
+	body#about a#aboutnav,
+	body#contact a#contactnav,
+	body#photography a#photonav{
+		
+		padding:5px 5px;
+
 	}
 	
 }

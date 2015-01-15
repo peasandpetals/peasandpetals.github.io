@@ -93,6 +93,33 @@ body#photography a#photonav{
 	color:black;
 }
 
+
+@media (max-width:890px){
+
+	.nav-bar {
+		width:150px;
+		background: black;
+		opacity: 0.5;
+
+	}
+	.nav-bar li{
+		float:left;
+		padding-bottom: 5px;		
+	}
+
+	body#home a#homenav,
+	body#fashion a#fashnav,
+	body#blogmain a#blognav,
+	body#about a#aboutnav,
+	body#contact a#contactnav,
+	body#photography a#photonav{
+		
+		padding:5px 5px;
+
+	}
+}
+
+
 @media (max-width:600px){
 	
 	.nav-bar a{
@@ -109,21 +136,17 @@ body#photography a#photonav{
 
 	.social-bar img{
 	width:35%;
-}
+	}
+
+	body#home a#homenav,
+	body#fashion a#fashnav,
+	body#blogmain a#blognav,
+	body#about a#aboutnav,
+	body#contact a#contactnav,
+	body#photography a#photonav{
+		padding:0px 5px;
+
+	}
 	
-}
-
-@media (max-width:890px){
-
-	.nav-bar {
-		width:150px;
-		background: black;
-		opacity: 0.5;
-
-	}
-	.nav-bar li{
-		float:left;
-		padding-bottom: 5px;		
-	}
 }
 

@@ -287,6 +287,17 @@ body#photography a#photonav{
 	.blog-body{
 	padding:20px 0px 0px 0px;
 	}
+
+	body#home a#homenav,
+	body#fashion a#fashnav,
+	body#blogmain a#blognav,
+	body#about a#aboutnav,
+	body#contact a#contactnav,
+	body#photography a#photonav{
+		
+		padding:0px 5px;
+
+	}
 	
 }
 
@@ -303,6 +314,17 @@ body#photography a#photonav{
 	.nav-bar li{
 		float:left;
 		padding-bottom: 5px;		
+	}
+
+	body#home a#homenav,
+	body#fashion a#fashnav,
+	body#blogmain a#blognav,
+	body#about a#aboutnav,
+	body#contact a#contactnav,
+	body#photography a#photonav{
+		
+		padding:5px 5px;
+
 	}
 }
 

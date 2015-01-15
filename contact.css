@@ -179,27 +179,7 @@ body#photography a#photonav{
 	color:black;
 }
 
-@media (max-width:600px){
-	
-	.nav-bar a{
-		font-size: 9px;
-		float:left;
-	}
-	
-	.header-title{
-	font-size: 40px;
-	}
 
-	.social-bar {
-	text-align: center;
-	
-	}
-
-	.social-bar img{
-	width:35%;
-}
-	
-}
 
 @media (max-width:890px){
 	.nav-bar li a:hover{
@@ -234,6 +214,17 @@ body#photography a#photonav{
 	font-size: 15px;
 	}
 
+	body#home a#homenav,
+	body#fashion a#fashnav,
+	body#blogmain a#blognav,
+	body#about a#aboutnav,
+	body#contact a#contactnav,
+	body#photography a#photonav{
+		
+		padding:5px 5px;
+
+	}
+
 	/*.long-field{
 	margin-top: 20px;
 	width:300px;
@@ -249,5 +240,38 @@ body#photography a#photonav{
 	}*/
 
 
+	
+}
+
+@media (max-width:600px){
+	
+	.nav-bar a{
+		font-size: 9px;
+		float:left;
+	}
+	
+	.header-title{
+	font-size: 40px;
+	}
+
+	.social-bar {
+	text-align: center;
+	
+	}
+
+	.social-bar img{
+	width:35%;
+	}
+
+	body#home a#homenav,
+	body#fashion a#fashnav,
+	body#blogmain a#blognav,
+	body#about a#aboutnav,
+	body#contact a#contactnav,
+	body#photography a#photonav{
+		
+		padding:0px 5px;
+
+	}
 	
 }
