@@ -31,15 +31,14 @@
 	padding: 9px 10px;
 }
 
-body#home a#home_nav,
-body#fashion a#fash_nav,
-body#blogmain a#blogm_nav,
-body#about a#about_nav,
-body#contact a#contact_nav,
-body#photography #photo_nav, {
+body.home a.home_nav,
+body.fashion a.fash_nav,
+body.blogmain a.blogm_nav,
+body.about a.about_nav,
+body.contact a.contact_nav,
+body.photography .photo_nav, {
 	background:black;
 }
-
 .nav-bar a{
 	  font-family: 'Lato', sans-serif ;
 	  font-weight: 300;
