@@ -26,14 +26,19 @@
 	
 }
 
-body.home a.home_nav,
-body.fashion a.fash_nav,
-body.blogmain a.blogm_nav,
-body.about a.about_nav,
-body.contact a.contact_nav,
-body.photography .photo_nav, {
-	background:black;
+body#home a#homenav,
+body#fashion a#fashnav,
+body#blogmain a#blogmnav,
+body#about a#aboutnav,
+body#contact a#contactnav,
+body#photography a#photonav{
+	background:white;
+	border-radius: 4px;
+	color:black;
+	font-weight: 600;
+	padding:10px;
 }
+
 .nav-bar li{
 	display: inline-block;
 	margin-right:  25px;
