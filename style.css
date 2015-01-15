@@ -23,6 +23,15 @@
 	right:0;
 	
 }
+
+body#home a#home_nav,
+body#fashion a#fash_nav,
+body#blogmain a#blogm_nav,
+body#about a#about_nav,
+body#contact a#contact_nav,
+body#photography #photo_nav, {
+	background:black;
+}
 .nav-bar li{
 	display: inline-block;
 	margin-right: 25px;
